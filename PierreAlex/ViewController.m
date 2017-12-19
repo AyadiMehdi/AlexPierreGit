@@ -9,14 +9,30 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-      
+
 @end
 
 @implementation ViewController
 
+/*
+ // Pour les couleurs, utilisez juste la lasse UIColorb
+ 
+ 
+ */
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     // Do any additional setup after loading the view, typically from a nib.
+    UIColor *bleu = [UIColor blueColor];
+    //    UIColor *bleu = [UIColor blueColor];
+    //    UIColor *bleu = [UIColor blueColor];
+    
+    // gestion des bords
+    // Récupération de la position de votre objet (votre balle)
+    //    maBalle.frame.origin.x
+    
 }
 
 
@@ -27,3 +43,4 @@
 
 
 @end
+
